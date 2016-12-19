@@ -1,4 +1,4 @@
 # igore pastas e arquivos
-/node_modules/
-/components/
-/globais/
+/node_modules
+/components
+/globais
