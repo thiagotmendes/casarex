@@ -1,0 +1,80 @@
+$bodyBackground: #e2e6e0;
+$menuBackground: #c3dcdc;
+$corFont: #777;
+
+body{
+  background-color: $bodyBackground;
+  font: 18px Sentinel-Light;
+}
+
+.body-site{
+  margin: 20px 5px;
+}
+
+.descricao{
+  font: 19px Sentinel-Light;
+  margin-top: 139px;
+  line-height: 24px;
+}
+
+/*********************************/
+/*********** MENU LATERAL *******/
+.menu-lateral{
+  background: $menuBackground;
+  height: 100%;
+  position: relative;
+  font: 18px Sentinel-Light;
+  padding-bottom: 20px;
+  width: 183px;
+}
+
+.menu-principal{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-principal li{
+
+}
+
+.menu-principal li:hover{
+  /*background-color: #e2e6e0;*/
+}
+
+.menu-principal li a{
+  color: $corFont;
+  display: block;
+  border-bottom: 1px solid #777;
+  transition-duration: 0.4s;
+  padding: 4px 8px;
+}
+
+.menu-principal li a:hover{
+  text-decoration: none;
+  background-color: #e2e6e0;
+  border-bottom: 1px solid #e2e6e0;
+}
+
+/******************************************/
+/*********** SUB MENU *********************/
+.sub-menu{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sub-menu li{
+  margin-left: 20px;
+}
+
+.sub-menu li a{
+  font-family: Sentinel-LightItalic;
+  font-size: 16px;
+}
+
+.sub-menu li a:hover{
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "casarex",
+  "description": "Site casa rex em wordpress",
+  "main": "index.php",
+  "authors": [
+    "Thiago Mendes"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
