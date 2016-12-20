@@ -15,6 +15,9 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "masonry": "^4.1.1",
+    "isotope-packery": "^2.0.0",
+    "isotope": "^3.0.1"
   }
 }

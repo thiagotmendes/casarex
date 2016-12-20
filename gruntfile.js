@@ -18,6 +18,8 @@ module.exports = function(grunt){
       my_target: {
         files: {
           'assets/js/bootstrap.min.js': ['components/bootstrap/dist/js/bootstrap.js'],
+          'assets/js/masonry.pkgd.min.js': ['components/masonry/dist/masonry.pkgd.js'],
+          'assets/js/isotope.pkgd.min.js': ['components/isotope/dist/isotope.pkgd.js','components/isotope-packery/packery-mode.pkgd.js'],
           'assets/js/funcoes.min.js' : ['globais/js/funcoes.js']
         }
       }
